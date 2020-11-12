@@ -5,10 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
 </head>
 <body>
-    <h1 onclick="change()">Birth Color Picker</h1>
-    <input type="date" name="" id="">
+    <div class="container">
+        <h1 onclick="change()">Birth Color Picker</h1>
+        <input type="date" name="" id="birthdate">
+        <div class="dateformat">
+        <div><label for="brformat">ddmmyy</label><input type="radio" name="format" id="brformat" checked></div>
+        <div><label for="usformat">mmddyy</label><input type="radio" name="format" id="usformat"></div>
+        <div><label for="jpformat">yymmdd</label><input type="radio" name="format" id="jpformat"></div>
+        </div>
+        <button onclick="submit()" id="button">Go!</button>
+        <p></p>
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
