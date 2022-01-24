@@ -3,17 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Birth Color Picker</title>
+    <link rel="shortcut icon" href="images/calendar-clipart-transparent-20.png" type="image/png">
+    <!-- Calendar icon image from clipart-library.com, free for personal use -->
+
+
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="container">
         <h1 onclick="change()">Birth Color Picker</h1>
         <input type="date" name="" id="birthdate">
         <div class="dateformat">
-        <div><label for="brformat">ddmmyy</label><input type="radio" name="format" id="brformat" checked></div>
-        <div><label for="usformat">mmddyy</label><input type="radio" name="format" id="usformat"></div>
-        <div><label for="jpformat">yymmdd</label><input type="radio" name="format" id="jpformat"></div>
+        <div><input type="radio" name="format" id="brformat" checked><label for="brformat">ddmmyy</label></div>
+        <div><input type="radio" name="format" id="usformat"><label for="usformat">mmddyy</label></div>
+        <div><input type="radio" name="format" id="jpformat"><label for="jpformat">yymmdd</label></div>
         </div>
         <button onclick="submit()" id="button">Go!</button>
         <p></p>
