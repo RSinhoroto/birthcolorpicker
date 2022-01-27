@@ -56,3 +56,12 @@ button {
     border-radius: 10px;
     height: 25px;
 }
+
+.info-box {
+    position: absolute;
+    bottom: 20px;
+}
+
+.info-box img {
+    height: 1.6rem;
+}
