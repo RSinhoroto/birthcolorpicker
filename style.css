@@ -8,10 +8,10 @@ body {
 }
 
 h1 {
-    color: black;
+    color: gray;
     transition: all 05s ease;
 
-    font: 700 2rem Roboto;
+    font: 700 2rem "Trebuchet MS";
 }
 
 .dateformat {
